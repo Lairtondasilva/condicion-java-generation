@@ -1,7 +1,7 @@
 package condicao;
 
 import java.util.Scanner;
-
+ 
 public class Question2 {
 	public static void main(String[]args) {
 		Scanner reader = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Question2 {
 		}
 		else if(b<=c && c<=a) {
 			System.out.println(b+" , "+c+" , "+a);
-		}
+		} 
 		else if(c<=a && a<=b) {
 			System.out.println(c+" , "+a+" , "+b);
 		}
